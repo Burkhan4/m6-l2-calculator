@@ -21,5 +21,6 @@ function btnClicked (txt) {
         inputText = '';
     } else if (txt == 'C') {
         document.getElementsByTagName('input')[0].value = 0;
+        inputText = '';
     }
 }
